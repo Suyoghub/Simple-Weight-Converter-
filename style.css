@@ -1,0 +1,68 @@
+body{
+    background: powderblue;
+
+}
+
+.container{
+    display:flex;
+    margin-top: 60px;;
+    text-align:center;
+    flex-wrap:wrap;
+    flex-direction: column;
+}
+
+h1{
+
+    font-size:4rem;
+    color:orange;
+    
+    }
+
+
+#number{
+
+    width:40%;
+    text-align:center;
+    height:50px;
+    font-size:1.5rem;
+    border-color: orange;
+}
+.outputform{
+    margin:auto;
+    width:50%;
+    text-align:left;
+    padding:20px 30px 30px 20px;
+}
+
+.row1{
+    border:2px solid orange;
+    padding:20px;
+    margin:30px;
+    background-color:red;
+    border-radius: 20px;
+}
+
+.row2{
+    border:2px solid orange;
+    padding:20px;
+    margin:30px;
+    background-color:greenyellow;
+    border-radius: 20px;
+    
+    
+
+}
+
+.row3{
+    border:2px solid orange;
+    padding:20px;
+    margin:30px;
+    background-color:blueviolet;
+    border-radius: 20px;
+}
+
+.output{
+    font-size:1rem;
+}
+
+

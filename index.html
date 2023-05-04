@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">
+            <h1>Weight Converter</h1>
+        </div>
+        <div class="inputwt">
+            <form>
+                <input type="number" name="Number" id="number" placeholder="Enter Weight in KG">
+
+            </form>
+        </div>
+
+        <div class="outputform">
+
+            <div class="row1">
+                <h2>In Grams:</h2>
+                <div class="output" id="one">
+                    
+                </div>
+            </div>
+
+            <div class="row2">
+                <h2>In Pound:</h2>
+                <div class="output" id="two">
+
+                </div>
+            </div>
+
+            <div class="row3">
+                <h2>In Ounce:</h2>
+                <div class="output"id="3">
+
+                </div>
+            </div>
+
+            <div class="row3">
+                <h2>In Ton:</h2>
+                <div class="output"id="4">
+
+                </div>
+            </div>
+        </div>
+    </div>
+<script>
+    document.getElementById('number').addEventListener("input", function(event){
+    var inputkg=event.target.value;
+    document.getElementById('one').innerHTML= inputkg*1000 +'gm' ;
+    document.getElementById('two').innerHTML= inputkg*2.20462 +'pound' ;
+    document.getElementById('3').innerHTML= inputkg*35.274 +'ounce' ;
+    document.getElementById('4').innerHTML= inputkg*0.001 +'ton' ;
+
+
+
+});
+</script>
+</body>
+</html>
